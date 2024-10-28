@@ -1,4 +1,6 @@
 {
   "item.kashir.demonium": "Demonium",
-  "item.kashir.raw_demonium": "Demonium Brute"
+  "item.kashir.raw_demonium": "Demonium Brute",
+  "block.kashir.demonium_block": "Bloc de Demonium",
+  "block.kashir.demonium_ore": "Minerai de Demonium"
 }

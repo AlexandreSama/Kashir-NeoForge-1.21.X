@@ -1,5 +1,6 @@
 package fr.djinn.kashir;
 
+import fr.djinn.kashir.block.ModBlocks;
 import fr.djinn.kashir.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,7 +40,7 @@ public class Kashir
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
-
+        ModBlocks.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -56,7 +57,10 @@ public class Kashir
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.DEMONIUM);
-            event.accept(ModItems.RAW_DEMONIUM);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
+            event.accept(ModBlocks.DEMONIUM_BLOCK);
+            event.accept(ModBlocks.DEMONIUM_ORE);
         }
     }
 

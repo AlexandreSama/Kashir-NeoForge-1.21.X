@@ -1,4 +1,6 @@
 {
   "item.kashir.demonium": "Demonium",
-  "item.kashir.raw_demonium": "Raw Demonium"
+  "item.kashir.raw_demonium": "Raw Demonium",
+  "block.kashir.demonium_block": "Demonium Block",
+  "block.kashir.demonium_ore": "Demonium Ore"
 }
