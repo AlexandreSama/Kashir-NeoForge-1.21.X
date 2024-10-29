@@ -1,6 +1,7 @@
 package fr.djinn.kashir;
 
 import fr.djinn.kashir.block.ModBlocks;
+import fr.djinn.kashir.item.ModCreativeModTabs;
 import fr.djinn.kashir.item.ModItems;
 import org.slf4j.Logger;
 
@@ -39,6 +40,8 @@ public class Kashir
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         // Register the item to a creative tab
@@ -56,7 +59,8 @@ public class Kashir
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.DEMONIUM);
+            event.accept(ModItems.DEMONIUM_INGOT);
+            event.accept(ModItems.RAW_DEMONIUM);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.DEMONIUM_BLOCK);

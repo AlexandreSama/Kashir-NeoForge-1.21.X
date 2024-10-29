@@ -1,6 +1,8 @@
 {
-  "item.kashir.demonium": "Demonium",
+  "item.kashir.demonium_ingot": "Lingot de Demonium",
   "item.kashir.raw_demonium": "Demonium Brute",
   "block.kashir.demonium_block": "Bloc de Demonium",
-  "block.kashir.demonium_ore": "Minerai de Demonium"
+  "block.kashir.demonium_ore": "Minerai de Demonium",
+  "creativetab.kashir.blocks": "Kashir Blocks",
+  "creativetab.kashir.items": "Kashir Items"
 }

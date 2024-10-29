@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.25,
+  "group": "demonium_ingot",
+  "ingredient": {
+    "item": "kashir:demonium_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "kashir:demonium_ingot"
+  }
+}

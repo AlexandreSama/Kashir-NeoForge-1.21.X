@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "demonium_ingot",
+  "ingredient": {
+    "item": "kashir:raw_demonium"
+  },
+  "result": {
+    "count": 1,
+    "id": "kashir:demonium_ingot"
+  }
+}
