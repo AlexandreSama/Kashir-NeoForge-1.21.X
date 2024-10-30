@@ -58,14 +58,6 @@ public class Kashir
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.DEMONIUM_INGOT);
-            event.accept(ModItems.RAW_DEMONIUM);
-        }
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.DEMONIUM_BLOCK);
-            event.accept(ModBlocks.DEMONIUM_ORE);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

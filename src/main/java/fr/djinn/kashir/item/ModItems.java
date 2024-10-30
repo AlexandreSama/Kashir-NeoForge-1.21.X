@@ -11,13 +11,13 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Kashir.MODID);
 
     public static final DeferredItem<Item> DEMONIUM_INGOT = ITEMS.register("demonium_ingot",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> RAW_DEMONIUM = ITEMS.register("raw_demonium",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> DEMONIUM_STICK = ITEMS.register("demonium_stick",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> DEMONIUM_POWDER = ITEMS.register("demonium_powder",
-            () -> new Item(new Item.Properties()));
+            () -> new Item(new Item.Properties().stacksTo(64)));
     public static final DeferredItem<Item> DEMONIUM_CRUSHER = ITEMS.register("demonium_crusher",
             () -> new Item(new Item.Properties().durability(32).setNoRepair()));
 
