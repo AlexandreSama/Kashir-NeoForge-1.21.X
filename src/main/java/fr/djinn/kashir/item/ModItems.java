@@ -14,6 +14,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> RAW_DEMONIUM = ITEMS.register("raw_demonium",
             () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEMONIUM_STICK = ITEMS.register("demonium_stick",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEMONIUM_POWDER = ITEMS.register("demonium_powder",
+            () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> DEMONIUM_CRUSHER = ITEMS.register("demonium_crusher",
+            () -> new Item(new Item.Properties().durability(32).setNoRepair()));
+
 
     public static final DeferredItem<Item> CHISEL = ITEMS.register("chisel",
             () -> new ChiselItem(new Item.Properties().durability(32)));

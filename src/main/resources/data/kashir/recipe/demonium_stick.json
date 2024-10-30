@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "kashir:demonium_ingot"
+    },
+    "C": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "  B",
+    " C ",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "kashir:demonium_stick"
+  }
+}

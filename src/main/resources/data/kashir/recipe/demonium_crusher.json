@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "kashir:demonium_stick"
+    },
+    "C": {
+      "item": "minecraft:bowl"
+    },
+    "D": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "  B",
+    " D ",
+    "C  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "kashir:demonium_crusher"
+  }
+}
