@@ -22,7 +22,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RAW_DEMONIUM);
                         output.accept(ModItems.DEMONIUM_INGOT);
-                        output.accept(ModItems.CHISEL);
+//                        output.accept(ModItems.CHISEL);
                         output.accept(ModItems.DEMONIUM_POWDER);
                         output.accept(ModItems.DEMONIUM_STICK);
                         output.accept(ModItems.DEMONIUM_CRUSHER);
