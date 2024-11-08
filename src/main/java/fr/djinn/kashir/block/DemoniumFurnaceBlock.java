@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.state.BlockState;
 
 public class DemoniumFurnaceBlock extends FurnaceBlock {
 
-    public DemoniumFurnaceBlock() {
+    public DemoniumFurnaceBlock(Properties sound) {
         super(BlockBehaviour.Properties.of().strength(3.5F).requiresCorrectToolForDrops());
     }
 
