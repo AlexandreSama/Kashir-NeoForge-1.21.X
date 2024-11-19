@@ -5,8 +5,11 @@
   "item.kashir.demonium_powder": "Demonium Powder",
   "item.kashir.demonium_crusher": "Demonium Crusher",
   "item.kashir.chisel": "Chisel",
+  "item.kashir.demonium_pickaxe": "Demonium Pickaxe",
+  "item.kashir.demonium_coal": "Demonium Coal",
   "block.kashir.demonium_block": "Demonium Block",
   "block.kashir.demonium_ore": "Demonium Ore",
   "creativetab.kashir.blocks": "Kashir Blocks",
-  "creativetab.kashir.items": "Kashir Items"
+  "creativetab.kashir.items": "Kashir Items",
+  "tooltip.kashir.demonium.coal.tooltip": "§oCreated by the remains of a §o§cdemonic power"
 }

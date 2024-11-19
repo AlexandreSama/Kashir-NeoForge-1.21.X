@@ -26,6 +26,8 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.DEMONIUM_POWDER);
                         output.accept(ModItems.DEMONIUM_STICK);
                         output.accept(ModItems.DEMONIUM_CRUSHER);
+                        output.accept(ModItems.DEMONIUM_COAL);
+                        output.accept(ModItems.DEMONIUM_PICKAXE);
                     })
                     .build());
 
