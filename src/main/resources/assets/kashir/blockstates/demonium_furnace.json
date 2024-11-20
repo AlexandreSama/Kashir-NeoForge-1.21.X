@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kashir:block/demonium_furnace"
+    },
+    "facing=east": {
+      "model": "kashir:block/demonium_furnace",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kashir:block/demonium_furnace",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kashir:block/demonium_furnace",
+      "y": 270
+    }
+  }
+}

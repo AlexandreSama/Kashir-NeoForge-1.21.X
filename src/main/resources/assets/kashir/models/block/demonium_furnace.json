@@ -1,6 +1,9 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "block/orientable",
   "textures": {
-    "all": "kashir:block/demonium_furnace"
-  }
+    "top": "kashir:block/demonium_furnace_top",
+    "front": "kashir:block/demonium_furnace_front",
+    "side": "kashir:block/demonium_furnace_sides"
+  },
+  "render_type": "solid"
 }
