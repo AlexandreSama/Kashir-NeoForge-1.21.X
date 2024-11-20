@@ -28,6 +28,10 @@ public class ModCreativeModTabs {
                         output.accept(ModItems.DEMONIUM_CRUSHER);
                         output.accept(ModItems.DEMONIUM_COAL);
                         output.accept(ModItems.DEMONIUM_PICKAXE);
+                        output.accept(ModItems.DEMONIUM_AXE);
+                        output.accept(ModItems.DEMONIUM_HOE);
+                        output.accept(ModItems.DEMONIUM_SWORD);
+                        output.accept(ModItems.DEMONIUM_SHOVEL);
                     })
                     .build());
 
@@ -39,6 +43,7 @@ public class ModCreativeModTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModBlocks.DEMONIUM_BLOCK);
                         output.accept(ModBlocks.DEMONIUM_ORE);
+                        output.accept(ModBlocks.DEMONIUM_FURNACE);
                     })
                     .build());
 

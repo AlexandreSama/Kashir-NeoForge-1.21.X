@@ -1,6 +1,8 @@
 package fr.djinn.kashir;
 
 import fr.djinn.kashir.block.ModBlocks;
+import fr.djinn.kashir.init.ModBlockEntities;
+import fr.djinn.kashir.init.ModMenus;
 import fr.djinn.kashir.item.ModCreativeModTabs;
 import fr.djinn.kashir.item.ModItems;
 import org.slf4j.Logger;
@@ -43,6 +45,8 @@ public class Kashir
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModMenus.REGISTRY.register(modEventBus);
+        ModBlockEntities.REGISTRY.register(modEventBus);
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 

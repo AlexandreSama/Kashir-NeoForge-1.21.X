@@ -9,7 +9,9 @@
   "item.kashir.demonium_coal": "Demonium Coal",
   "block.kashir.demonium_block": "Demonium Block",
   "block.kashir.demonium_ore": "Demonium Ore",
+  "block.kashir.demonium_furnace": "Demonium Furnace",
   "creativetab.kashir.blocks": "Kashir Blocks",
   "creativetab.kashir.items": "Kashir Items",
-  "tooltip.kashir.demonium.coal.tooltip": "§oCreated by the remains of a §o§cdemonic power"
+  "tooltip.kashir.demonium.coal.tooltip": "§oCreated by the remains of a §o§cdemonic power",
+  "gui.kashir.demonium_furnace_gui.label_demonium_furnace": "Demonium Furnace"
 }
